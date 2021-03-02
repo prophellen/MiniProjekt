@@ -1,6 +1,6 @@
 $ = document.getElementById.bind(document);
 const nameBt = $("nameButton");
 
-nameBt.AddEventListener("click", () => {
+nameBt.addEventListener("click", () => {
     alert("You clicked a button.");
 });
